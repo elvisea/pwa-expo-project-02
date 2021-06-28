@@ -1,10 +1,13 @@
 import React from 'react';
-import { View } from 'react-native';
 
-// import { Container } from './styles';
+import { Container, Title } from './styles';
 
 const Search: React.FC = () => {
-  return <View />;
+  return (
+    <Container>
+      <Title>Search</Title>
+    </Container>
+  )
 }
 
 export default Search;
